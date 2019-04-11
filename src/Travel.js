@@ -1,8 +1,10 @@
+// Travel is a resuable component that displays the content of one travel
+
 import React from "react";
 
-const Travel = ({destination, country, photo, distance}) => (
+const Travel = ({destination, country, image, distance}) => (
     <figure>
-        <img src={photo}  alt={destination} />
+        <img src={image}  alt={destination} />
         <figcaption>
             <h2>{country}, {destination}</h2>
             <p>{distance} from Berlin</p>

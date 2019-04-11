@@ -1,3 +1,5 @@
+// App is the entry component
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -10,7 +12,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className='App-title'>Dreaming of my next Travels 💭😍</h1>
+          <h1 className='App-title'>Dreaming of my next Travels <span role="img" aria-label="emoji">💭😍</span></h1>
           </header>
           <Travels/>
       </div>
