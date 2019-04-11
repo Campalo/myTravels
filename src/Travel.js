@@ -1,6 +1,6 @@
 import React from "react";
 
-const Travels = ({destination, country, photo, distance}) => (
+const Travel = ({destination, country, photo, distance}) => (
     <figure>
         <img src={photo}  alt={destination} />
         <figcaption>
@@ -10,4 +10,4 @@ const Travels = ({destination, country, photo, distance}) => (
     </figure>
 );
 
-export default Travels;
+export default Travel;
